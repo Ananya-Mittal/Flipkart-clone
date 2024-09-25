@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: blue;
+    color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    height:48px;
+    width:135px;
+    margin-left: 3rem;
+    margin-top:1rem;
+}
+.logo{
+    background-image: url("flipkart-logo.png");
+    background-size: cover;
+    height:20px;
+    width:82px;
+}
+.text{
+    display:flex;
+    width:82px; 
+}
+.text1{
+    height:15px;
+    font-size: 0.85rem;
+    margin-bottom:6rem;
+}
+.text2{
+    height:12px;
+    font-size: 0.85rem;
+    color:yellow;
+    
+}
+.plus-logo{
+    background-image: url("plus-logo.png");
+    background-size: cover;
+    height:10px;
+    width:10px
+}
+/* box2 */
+.nav-search{
+    display:flex;
+    width: 592px;
+    height:55px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.search-input{
+    width: 522px;
+    height: 35px;
+    border: none;
+    font-size: 0.90rem;
+    padding:0px 16px;
+}
+.search-logo{
+    width:42px;
+    height: 2.15rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:blue;
+    border: none;
+}
+/* box3 */
+.login button{
+    background-color: white;
+    color:#2874f0;
+    height:30px;
+    font-size: 1rem;
+    padding:5px 40px;
+    font-weight: 550;
+    border: none;
+    margin-left: 3rem;
+}
+/* box4 */
+.seller{
+    font-weight: 550;
+    margin-left: 3rem;
+}
+/* box5 */
+.more{
+    width:50px;
+    height:56px;
+}
+.more select{
+    width: 60px;;
+    height:56px;
+    font-weight: 550;
+    background-color:blue;
+    color:white;
+    border:none;
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+.more select option{
+    background-color: white;
+    color:blue;
+    border: none;
+}
+/* box6 */
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 6rem;
+    font-weight: 550;
+}
+/* panel2 */
+.panel2{
+    height: 120px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2.5rem;
+}
+.img1{
+    background-image: url("grocery.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img2{
+    background-image: url("mobiles.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img3{
+    background-image: url("fashion.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img4{
+    background-image: url("electronics.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img5{
+    background-image: url("home.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img6{
+    background-image: url("appliances.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img7{
+    background-image: url("travel.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img8{
+    background-image: url("toys.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.img9{
+    background-image: url("twowheelers.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.section1{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section2{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section3{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section4{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section5{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section6{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section7{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section8{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.section9{
+    height:20px;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 550;
+}
+/* Hero_section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:280px;
+}
+/* box-section */
+.box-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(237, 236, 236);
+    flex-direction:row;
+    margin-top:3rem;
+    
+}
+.box{
+    background-color: white;
+    /* border:2px solid black; */
+    height:315px;
+    width:230px;
+    
+}
+.box-img{
+    background-size:contain;
+    height:200px;
+    background-repeat: no-repeat;
+    margin: 2rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+.font{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    color:#388e3c;
+
+}
+.font1{
+    margin-left: 0.85rem;
+    margin-right: 1.5rem;
+    margin-top: 0.85rem;
+    color:#212121;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    height: 20px;
+}
+.box-section2{
+    margin-top:6rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgb(237, 236, 236);
+    
+}
+.box-section3{
+    margin-top:3rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgb(237, 236, 236);
+}
+/* footpanel1 */
+.foot-panel1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color: rgb(20, 20, 72);
+    margin-top: 3rem;
+    padding-top: 40px;
+    
+}
+ul h3{
+    color: #878787;
+    display: flex;
+    height:20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+    height: 24px;
+}
+ul pre{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+    height: 24px;
+}
+.pre1{
+    border-left: 2px solid #878787;
+}
+/* footpanel2 */
+.foot-panel2{
+    display: flex;
+    border-top: 2px solid #878787;
+    background-color:  rgb(20, 20, 72);
+    height:75px;
+    color:white;
+    align-items: center;
+    justify-content:space-around;
+}
+.foot-panel2 i{
+    color: yellow;
+    
+}
